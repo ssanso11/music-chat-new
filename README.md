@@ -29,7 +29,7 @@ inside of the backend directory. If everything compiles correctly, this should c
 2. Next, run
 
 ```
-redis-cli
+redis-server
 ```
 
 to start the redis server. If you want, you can also run
