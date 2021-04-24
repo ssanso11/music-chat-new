@@ -1,6 +1,6 @@
 # MusicChat
 
-MusicChat aims to make online music lessons easier. Now ported over to Typescript, Next.js, and GraphQL! The old repository (using MERN stack) can be found [here](https://github.com/ssanso11/WebChatApp)
+MusicChat aims to make online music lessons easier. Now ported over to Typescript, Next.js, and GraphQL! The old repository (using MERN stack) can be found [here](https://github.com/ssanso11/WebChatApp). Still very much a work in progress :)
 
 ## Installation
 
