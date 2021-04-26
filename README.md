@@ -4,7 +4,7 @@ MusicChat aims to make online music lessons easier. Now ported over to Typescrip
 
 ## Installation
 
-This project depends on a node package manager such as [Yarn](https://classic.yarnpkg.com/en/) to install the required Typescript packages. It also use [PostgresSQL](https://www.postgresql.org/), [Redis](https://redis.io/) to store cookies. All of these technologies can be easily installed using [Homebrew](https://brew.sh/) for MacOS, or by following through the installation guide on their respective websites.
+This project depends on a node package manager such as [Yarn](https://classic.yarnpkg.com/en/) to install the required Typescript packages. It also use [PostgresSQL](https://www.postgresql.org/) as the main database and [Redis](https://redis.io/) to store cookies. All of these technologies can be easily installed using [Homebrew](https://brew.sh/) for MacOS, or by following through the installation guide on their respective websites.
 
 To install the required Typescript dependecies, run
 
