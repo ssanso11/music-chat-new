@@ -1,6 +1,7 @@
 # for backend
 backend/dist
 backend/node_modules
+backend/dumb.rdb
 
 # for frontend
 frontend/node_modules
