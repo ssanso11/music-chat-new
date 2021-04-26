@@ -1,10 +1,10 @@
 # MusicChat
 
-MusicChat aims to make online music lessons easier. Now ported over to Typescript, Next.js, and GraphQL! The old repository (using MERN stack) can be found [here](https://github.com/ssanso11/WebChatApp)
+MusicChat aims to make online music lessons easier. Now ported over to Typescript, Next.js, and GraphQL! The old repository (using MERN stack) can be found [here](https://github.com/ssanso11/WebChatApp). Still very much a work in progress :)
 
 ## Installation
 
-This project depends on a node package manager such as [Yarn](https://classic.yarnpkg.com/en/) to install the required Typescript packages. It also use [PostgresSQL](https://www.postgresql.org/), [Redis](https://redis.io/) to store cookies. All of these technologies can be easily installed using [Homebrew](https://brew.sh/) for MacOS, or by following through the installation guide on their respective websites.
+This project depends on a node package manager such as [Yarn](https://classic.yarnpkg.com/en/) to install the required Typescript packages. It also use [PostgresSQL](https://www.postgresql.org/) as the main database and [Redis](https://redis.io/) to store cookies. All of these technologies can be easily installed using [Homebrew](https://brew.sh/) for MacOS, or by following through the installation guide on their respective websites.
 
 To install the required Typescript dependecies, run
 
@@ -29,7 +29,7 @@ inside of the backend directory. If everything compiles correctly, this should c
 2. Next, run
 
 ```
-redis-cli
+redis-server
 ```
 
 to start the redis server. If you want, you can also run
