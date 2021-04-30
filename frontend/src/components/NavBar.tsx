@@ -4,7 +4,9 @@ import { Box, Flex, Text } from "@chakra-ui/layout";
 import Link from "next/link";
 import React from "react";
 
-interface NavBarProps {}
+interface NavBarProps {
+  showNavbar: boolean;
+}
 
 const MenuItems = (props: any) => {
   const { children, isLast, to = "/", ...rest } = props;
@@ -21,17 +23,21 @@ const MenuItems = (props: any) => {
   );
 };
 
-export const NavBar: React.FC<NavBarProps> = ({}) => {
+export const NavBar: React.FC<NavBarProps> = ({ showNavbar, ...props }) => {
   return (
     <Flex
+      hidden={!showNavbar}
       as="nav"
       align="center"
       justify="space-between"
       wrap="wrap"
       w="100%"
       p={5}
-      bg={["primary.500", "primary.500", "transparent", "transparent"]}
-      color={["white", "white", "primary.700", "primary.700"]}
+      backgroundColor="white"
+      position="sticky"
+      top={0}
+      shadow="lg"
+      zIndex={9999}
     >
       <Flex align="center">
         <Text

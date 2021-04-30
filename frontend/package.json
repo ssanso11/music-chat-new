@@ -21,6 +21,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-typist": "^2.0.5",
+    "sass": "^1.32.12",
+    "swiper": "^6.5.8",
     "urql": "^2.0.2"
   },
   "license": "MIT",

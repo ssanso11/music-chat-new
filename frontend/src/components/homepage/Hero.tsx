@@ -17,15 +17,8 @@ export const Hero: React.FC<HeroProps> = ({
   ...props
 }) => {
   return (
-    <Flex
-      //   align="center"
-      //   //justify={{ base: "center", md: "space-around", xl: "space-between" }}
-      //   direction={{ base: "column-reverse", md: "row" }}
-      //   //wrap="nowrap"
-      //   minH="70vh"
-      mb={16}
-    >
-      <Center w="100%" h="500px" bgGradient="linear(#2a9df4,#2a9da2)">
+    <Flex mb={16}>
+      <Center w="100%" h="600px" bgGradient="linear(#2a9df4,#2a9da2)">
         <HStack px={6} spacing="200px">
           <Typist cursor={{ show: false }} avgTypingDelay={55}>
             <Stack w="100%" spacing={1}>
@@ -77,8 +70,6 @@ export const Hero: React.FC<HeroProps> = ({
             <Image
               src="https://www.mysaffronapp.com/static/9bcd044f62dd04c03865a277c580d0ea/9f2e0/hero-img.png"
               w="500px"
-              //rounded="1rem"
-              //shadow="2xl"
             />
           </Box>
         </HStack>
