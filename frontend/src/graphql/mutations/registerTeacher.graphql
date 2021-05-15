@@ -1,0 +1,28 @@
+mutation RegisterTeacher(
+  $email: String!
+  $firstName: String!
+  $lastName: String!
+  $password: String!
+  $bio: String!
+  $instrument: String!
+) {
+  registerTeacher(
+    options: {
+      email: $email
+      firstName: $firstName
+      lastName: $lastName
+      password: $password
+      bio: $bio
+      instrument: $instrument
+    }
+  ) {
+    errors {
+      field
+      message
+    }
+    teacher {
+      id
+      email
+    }
+  }
+}

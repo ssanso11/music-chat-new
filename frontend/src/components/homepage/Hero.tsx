@@ -1,5 +1,6 @@
 import { Center, Flex, HStack } from "@chakra-ui/layout";
 import { Box, Button, Image, Stack, Text } from "@chakra-ui/react";
+import Link from "next/link";
 import React from "react";
 import Typist from "react-typist";
 //const app_demo = require("../images/placeholder_app_demo.png");
@@ -47,20 +48,22 @@ export const Hero: React.FC<HeroProps> = ({
               >
                 {subheading}
               </Text>
-              <Button
-                w="180px"
-                mx={2}
-                color="white"
-                pl={1}
-                mt="50px"
-                bgColor="blackAlpha.500"
-                textAlign="center"
-                position="relative"
-                left="3px"
-                bottom="5px"
-              >
-                {loginButtonText}
-              </Button>
+              <Link href="/register">
+                <Button
+                  w="180px"
+                  mx={2}
+                  color="white"
+                  pl={1}
+                  mt="50px"
+                  bgColor="blackAlpha.500"
+                  textAlign="center"
+                  position="relative"
+                  left="3px"
+                  bottom="5px"
+                >
+                  {loginButtonText}
+                </Button>
+              </Link>
             </Stack>
           </Typist>
           <Box

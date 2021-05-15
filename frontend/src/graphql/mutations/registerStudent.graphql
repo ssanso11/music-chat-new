@@ -1,0 +1,24 @@
+mutation RegisterStudent(
+  $email: String!
+  $firstName: String!
+  $lastName: String!
+  $password: String!
+) {
+  registerStudent(
+    options: {
+      email: $email
+      firstName: $firstName
+      lastName: $lastName
+      password: $password
+    }
+  ) {
+    errors {
+      field
+      message
+    }
+    student {
+      id
+      email
+    }
+  }
+}
