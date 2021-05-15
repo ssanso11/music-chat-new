@@ -1,5 +1,4 @@
 import { Button } from "@chakra-ui/button";
-import { CloseIcon } from "@chakra-ui/icons";
 import { Box, Flex, Text } from "@chakra-ui/layout";
 import Link from "next/link";
 import React from "react";
